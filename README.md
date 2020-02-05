@@ -1,9 +1,9 @@
 <<<<<<< HEAD
-<h1>"# calculadora-Imc" </h1>
+<h2>"# calculadora-Imc" </h2>
 
-## Aplicativo criado para realizar o cálculo de IMC, utilizando a tecnologia React Native.
+<h3># Aplicativo criado para realizar o cálculo de IMC, utilizando a tecnologia React Native. </h3>
 
-<p>Foram utilizados os conceitos básicos do react-native. </p> > <br/>
+<p>Foram utilizados os conceitos básicos do react-native. </p> <br/>
 
 Para rodar o projeto.
 
