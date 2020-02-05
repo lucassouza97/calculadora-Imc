@@ -22,6 +22,9 @@ export default class App extends Component {
 
         this.state.showResult = true;
         this.state.resultado = Math.floor((parseFloat(this.state.peso) / (altura * altura)));
+        
+        // futuras implementações
+        // this.setState ({resultado : Math.floor((parseFloat(this.state.peso) / (altura * altura)))}
 
         
         //  switch(this.state.resultado){
@@ -52,7 +55,7 @@ export default class App extends Component {
         //      default:
         //          alert("i dont know such values")
 
-        //  }
+        //  }}
 
         if(this.state.resultado < 17){
             this.setState({ resultadoText: 'Você está muito abaixo do peso' })
@@ -105,7 +108,7 @@ export default class App extends Component {
                 
                 {this.state.showResult && <Text style={styles.resultStyle}>Seu IMC é: {this.state.resultado} - {this.state.resultadoText} </Text>}
                 
-                <View style={{top: 94, left: 185}}>
+                <View style={{top: 90, left: 185}}>
                     <TouchableOpacity onPress={() => {Linking.openURL('https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal')}}> 
                         <Image  style={styles.imageInfo} source={require('./src/images/info.png')}/>
                     </TouchableOpacity>
@@ -158,5 +161,7 @@ const styles = StyleSheet.create({
         height: 40,
     }
 })
+
+//Desenvolvido por Lucas Souza da Silva / Student Developer / Contato: l.lucassouza@hotmail.com
     
 
