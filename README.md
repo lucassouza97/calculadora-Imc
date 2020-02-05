@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <h2>"# calculadora-Imc" </h2>
 
 <h3># Aplicativo criado para realizar o cálculo de IMC, utilizando a tecnologia React Native. </h3>
